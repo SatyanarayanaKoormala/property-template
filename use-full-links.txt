@@ -1,0 +1,8 @@
+Email Template
+https://litmus.com/builder/c2337fe/share/embed
+
+Email checker
+https://www.htmlemailcheck.com/check/
+
+Google Email Markup tester
+https://www.google.com/webmasters/markup-tester/u/0/
