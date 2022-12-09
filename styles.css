@@ -1,0 +1,181 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 600px;
+  width: 600px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d3d3d3;
+}
+
+.banner-strip {
+  background-color: #d2691e;
+  height: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-strip .logo {
+  width: 50%;
+  height: 50px;
+  display: block;
+  background-color: #4e4b4b;
+  margin: 0 auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.banner-strip .logo .image,
+.banner-strip .logo .text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 6px;
+}
+.banner-strip .logo .image img {
+  width: 30px;
+  height: auto;
+}
+
+.banner-strip .logo .text {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.banner-strip .logo .text .bold {
+  font-weight: 700;
+}
+
+.banner-strip .logo .text sup {
+  font-size: 10px;
+}
+
+.banner {
+  background-image: url("./images/resort.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  margin-top: -21px;
+  position: relative;
+  background: ;
+}
+
+.background-blur {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255 255 255 / 80%);
+}
+
+.banner .banner-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #4e4b4b;
+  text-align: center;
+}
+
+.banner .banner-text .title {
+  margin: 0;
+  font-size: 36px;
+}
+
+.banner .banner-text .sub-text {
+  margin: 0;
+  font-size: 18px;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 20px;
+  color: #4e4b4b;
+}
+
+.button-block {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.button-block button {
+  color: #ffffff;
+  border-radius: 40px;
+  background-color: #d2691e;
+  font-size: 18px;
+  border: 0;
+  padding: 10px 30px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.styled-table thead tr {
+  background-color: #e4e4e4;
+  color: #4e4b4b;
+  text-align: left;
+  font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #e4e4e4;
+  background-color: #ffffff;
+}
+
+.styled-table tbody tr td:first-child {
+  width: 55%;
+}
+
+.styled-table tbody tr td:first-child img {
+  width: 50px;
+  height: auto;
+  vertical-align: middle;
+}
+.styled-table tbody tr td:first-child .property-name {
+  height: auto;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0px 30px 10px;
+  background-color: #808080;
+  color: #ffffff;
+}
+
+.footer table {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+.footer table tbody tr td svg {
+  width: 30px;
+}
+
+.footer .brand,
+.footer .address {
+  margin: 0;
+}
+
+.footer .brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer .address {
+  font-size: 16px;
+}
