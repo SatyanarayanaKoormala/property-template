@@ -1,8 +1,11 @@
 Email Template
-https://litmus.com/builder/c2337fe/share/embed
+https://litmus.com/builder/c2337fe
 
 Email checker
 https://www.htmlemailcheck.com/check/
 
 Google Email Markup tester
 https://www.google.com/webmasters/markup-tester/u/0/
+
+CSS property checker for Email
+https://www.campaignmonitor.com/css/style-element/style-in-body/
